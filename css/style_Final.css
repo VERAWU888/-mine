@@ -28,6 +28,11 @@ a {
 .banner {
 	margin-top: 110px;
 }
+carousel-inner > .item > img{
+	width: 100%;
+	height:700px;
+	overflow:hidden;
+}
 .news {
 	margin-top: 30px;
 }
@@ -46,6 +51,7 @@ a {
 .courseImg {
 	padding-right: 20px;
 	padding-bottom: 20px;
+	margin: auto;
 }
 .contLink {
 	min-height: 100px;
@@ -100,5 +106,8 @@ a {
 @media screen and (max-width: 640px) {
 .CoursesShare .span{
 	text-align: center;
-	}    
+	} 
+.CoursesShare p{
+	text-align: center;
+}   
 }
